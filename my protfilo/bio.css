@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(238, 212, 232);
+    color: rgb(24, 28, 28);
+
+}
+img{
+    display: block;          /* Makes the image a block element */
+            margin: 0 auto;          /* Auto margins center it horizontally */
+            border-radius: 50%;      /* Makes the image circular */
+            width: 300px;            /* Control size */
+            height: 300px;           /* Keep equal width & height for circle */
+            object-fit: cover;       /* Ensures the image fills the circle */
+            border: 5px solid #333;  /* Optional: adds a border */
+}
