@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(238, 212, 232);
+    background-color: rgb(173, 206, 227);
     color: rgb(24, 28, 28);
 
 }
@@ -10,5 +10,31 @@ img{
             width: 300px;            /* Control size */
             height: 300px;           /* Keep equal width & height for circle */
             object-fit: cover;       /* Ensures the image fills the circle */
-            border: 5px solid #333;  /* Optional: adds a border */
+            border: 5px solid #561717;  /* Optional: adds a border */
+}
+.cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.cv-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cv-btn:hover {
+    background: #0056b3;
 }
